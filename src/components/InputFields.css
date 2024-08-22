@@ -1,0 +1,71 @@
+.password1 {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 85px;
+}
+.password2 {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-oldlace);
+  box-sizing: border-box;
+}
+.input-containers1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-37xl-4);
+  gap: var(--gap-4xs-5);
+}
+.log-in-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: row;
+}
+.input-fields,
+.log-in-btn,
+.log-in-btn-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.log-in-btn-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-51xl);
+  box-sizing: border-box;
+}
+.input-fields {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-43xl-5);
+  text-align: left;
+  font-size: var(--body-large-regular-size);
+  color: var(--foreground-high);
+  font-family: var(--body-large-regular);
+}
+@media screen and (max-width: 675px) {
+  .log-in-btn-wrapper {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .input-fields {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .input-fields {
+    gap: var(--gap-base);
+  }
+}

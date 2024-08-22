@@ -1,0 +1,24 @@
+.login-now {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 105px;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-lgi-1);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--foreground-oncolor);
+  font-family: var(--body-large-regular);
+}

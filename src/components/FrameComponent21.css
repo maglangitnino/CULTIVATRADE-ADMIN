@@ -1,0 +1,33 @@
+.email,
+.email1 {
+  position: relative;
+}
+.email {
+  width: 47px;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.email1 {
+  border: 2px solid var(--color-oldlace);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 39px;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.input-containers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-4);
+  text-align: left;
+  font-size: var(--body-large-regular-size);
+  color: var(--foreground-high);
+  font-family: var(--body-large-regular);
+}
